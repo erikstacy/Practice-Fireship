@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168592983877",
+    "firebase_url": "https://practice-fireship.firebaseio.com",
+    "project_id": "practice-fireship",
+    "storage_bucket": "practice-fireship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168592983877:android:57641e545dff7affe6602c",
+        "android_client_info": {
+          "package_name": "com.example.practice_fireship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168592983877-a6hrmjlefmnk5dblnuqmtuj6vrslpmo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVrQ9VIjUGkqwaVRNAbdzZvPdxZprIcAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168592983877-a6hrmjlefmnk5dblnuqmtuj6vrslpmo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
