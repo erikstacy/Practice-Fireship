@@ -19,3 +19,23 @@ class ContentCard {
     );
   }
 }
+
+class Second {
+
+  String id;
+  String title;
+
+  Second({
+    this.id,
+    this.title,
+  });
+
+  factory Second.fromFirestore(DocumentSnapshot doc) {
+    Map data = doc.data;
+
+    return Second(
+      id: doc.documentID,
+      title: data['title'],
+    );
+  }
+}

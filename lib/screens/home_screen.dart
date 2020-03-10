@@ -18,33 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       body: SafeArea(
-        child: Text('Wow')
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () {
-          // TODO - Implement fab onClick
-        },
-      ),
-    );
-  }
-}
-
-/*
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
-  Widget build(BuildContext context) {
-
-    List<ContentCard> contentCardList = Provider.of<List<ContentCard>>(context);
-
-    return Scaffold(
-      body: SafeArea(
         child: ListView.builder(
           itemCount: contentCardList.length,
           itemBuilder: (context, index) {
             return ListTile(
-              title: Text("Alaska"),
+              title: Text(contentCardList[index].title),
             );
           },
         ),
@@ -58,4 +36,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-*/
